@@ -11,12 +11,13 @@
   - Fact-conflicting hallucination, where LLMs generate content that is not faithful to established world knowledge.
     
 ## Problem in retrieval-augmentation LLMs
-+ retrieval performance:
++ Retrieval process:
   - misinformation [[paper](https://browse.arxiv.org/pdf/2305.01579.pdf)] 
 + LLMs performance:
   -  Noise Robustness, negative rejection, information integration, and dealing with false information [[paper](https://aclanthology.org/2023.acl-long.546.pdf)]
   -  Faithfulness[[paper](https://arxiv.org/abs/2308.05374)]: It is a kind of Input-conflicting hallucination. [[paper](https://arxiv.org/abs/2308.05374)]
-  -  knowledge conflicts. [[paper](https://browse.arxiv.org/pdf/2305.13300.pdf)] [[paper](https://arxiv.org/abs/2305.14739)] 
+  -  knowledge conflicts. [[paper](https://browse.arxiv.org/pdf/2305.13300.pdf)] [[paper](https://arxiv.org/abs/2305.14739)]
+  -  Factual Knowledge Boundary.  [[paper](https://arxiv.org/abs/2305.13300)] [[paper](https://aclanthology.org/2023.acl-long.546.pdf)]
 
 ## Investigating LLMs with summarization
 
