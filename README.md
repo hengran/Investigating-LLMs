@@ -1,6 +1,6 @@
 # Investigating LLMs
 
-## investigating LLMs with summarization
+## Investigating LLMs with summarization
 
 + **Derek Tam, Anisha Mascarenhas, Shiyue Zhang, Sarah Kwan, Mohit Bansal, Colin Raffel: Evaluating the Factual Consistency of Large Language Models Through News Summarization** [[paper](https://aclanthology.org/2023.findings-acl.322.pdf)] 2023, ACL findings
   
@@ -16,7 +16,7 @@
   + **Key point:** This paper presents a comprehensive survey of key dimensions that are crucial to consider when assessing LLM trustworthiness. The survey covers seven major categories of LLM trustworthiness: reliability, safety, fairness, resistance to misuse, explainability and reasoning, adherence to social norms, and robustness. Each major category is further divided into several sub-categories, resulting in a total of 29 sub-categories. 
 
 
-## investigating LLMs with restrieval augmentation
+## Investigating LLMs with restrieval augmentation
 
 + **Ruiyang Ren, Yuhao Wang, Yingqi Qu, Wayne Xin Zhao, Jing Liu., et.al: Investigating the Factual Knowledge Boundary of Large Language Models
 with Retrieval Augmentation** [[paper]](https://arxiv.org/abs/2305.13300) 2023.7
@@ -29,8 +29,6 @@ with Retrieval Augmentation** [[paper]](https://arxiv.org/abs/2305.13300) 2023.7
   + **Key point:** This paper establishes Retrieval-Augmented Generation Benchmark (RGB) and evaluates 6 representative LLMs in terms of negative rejection, information integration, and dealing with false information. 
 + **Alex Mallen, Akari Asai, Victor Zhong, Rajarshi Das, Daniel Khashabi, Hannaneh Hajishirzi: When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories** [[paper]](https://aclanthology.org/2023.acl-long.546.pdf) 2023, ACL long
   + **Key point:** This paper aims to understand LMs' strengths and limitations in memorizing factual knowledge, by conducting large-scale knowledge probing experiments of 10 models and 4 augmentation methods on PopQA, our new open-domain QA dataset with 14k questions. This paper finds that LMs struggle with less popular factual knowledge, and that scaling fails to appreciably improve memorization of factual knowledge in the long tail.
-
-
 + **Siqing Huo, Negar Arabzadeh, Charles L. A. Clarke: Retrieving Supporting Evidence for Generative Question**  [[paper]](https://arxiv.org/pdf/2309.11392.pdf) 2023.09
   + **Key point:** This paper reports two simple experiments to automatically validate generated answers against a corpus.
  
