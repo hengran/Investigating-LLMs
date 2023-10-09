@@ -3,8 +3,9 @@
 
 ## Problem in LLMs
 
-+ trustworthiness:  reliability, safety, fairness, resistance to misuse, explainability and reasoning, adherence to social norms, and robustness [[paper](https://arxiv.org/abs/2308.05374)]
-+ hallucination:
++ Trustworthiness:  reliability, safety, fairness, resistance to misuse, explainability and reasoning, adherence to social norms, and robustness. [[paper](https://arxiv.org/abs/2308.05374)]
++ Factual Consistency. [[paper](https://aclanthology.org/2023.findings-acl.322.pdf)]
++ Hallucination:
   - Input-conflicting hallucination, where LLMs generate content that deviates from the source input provided by users.
   - Context-conflicting hallucination, where LLMs generate content that conflicts with previously generated information by itself.
   - Fact-conflicting hallucination, where LLMs generate content that is not faithful to established world knowledge.
