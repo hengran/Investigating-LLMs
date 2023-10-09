@@ -12,6 +12,7 @@
 ## Survey on trustworthy LLMs
 
 + **Yang Liu, Yuanshun Yao, Jean-Francois Ton, Xiaoying Zhang, Ruocheng Guo, Hao Cheng, Yegor Klochkov, Muhammad Faaiz Taufiq, Hang Li: Trustworthy LLMs: a Survey and Guideline for Evaluating Large Language Models' Alignment** [[paper](https://arxiv.org/abs/2308.05374)] 2023.08
+  
   + **Key point:** This paper presents a comprehensive survey of key dimensions that are crucial to consider when assessing LLM trustworthiness. The survey covers seven major categories of LLM trustworthiness: reliability, safety, fairness, resistance to misuse, explainability and reasoning, adherence to social norms, and robustness. Each major category is further divided into several sub-categories, resulting in a total of 29 sub-categories. 
 
 
