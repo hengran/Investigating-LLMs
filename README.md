@@ -17,7 +17,7 @@
   -  Noise Robustness, negative rejection, information integration, and dealing with false information [[When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories](https://aclanthology.org/2023.acl-long.546.pdf)]
   -  Faithfulness[[Evaluating Correctness and Faithfulness of Instruction-Following Models for Question Answering](https://arxiv.org/abs/2307.16877)]: It is a kind of Input-conflicting hallucination. [[Siren’s Song in the AI Ocean: A Survey on Hallucination in Large Language Models](https://arxiv.org/abs/2309.01219)]
   -  Knowledge conflicts. [[Adaptive Chameleon or Stubborn Sloth: REVEALING THE BEHAVIOR OF LARGE LANGUAGE MODELS IN KNOWLEDGE CONFLICTS](https://browse.arxiv.org/pdf/2305.13300.pdf)] [[Trusting Your Evidence: Hallucinate Less with Context-aware Decoding](https://arxiv.org/abs/2305.14739)]
-  -  Factual Knowledge Boundary.  [[Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation](https://arxiv.org/abs/2305.13300)] [[When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories](https://aclanthology.org/2023.acl-long.546.pdf)]
+  -  Factual Knowledge Boundary.  [[Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation](https://arxiv.org/abs/2307.11019)] [[When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories](https://aclanthology.org/2023.acl-long.546.pdf)]
 
 ## Investigating LLMs with summarization
 
@@ -41,7 +41,7 @@
 + **Vaibhav Adlakha, Parishad BehnamGhader, Xing Han Lu, Nicholas Meade, Siva Reddy: Evaluating Correctness and Faithfulness of Instruction-Following Models for Question Answering**  [[paper](https://arxiv.org/abs/2307.16877)] 2023.07
   - **Key point:** This paper investigates the performance of instruction-following models across three information-seeking QA tasks. This paper uses both automatic and human evaluation to evaluate these models along two dimensions: 1) how well they satisfy the user's information need (correctness), and 2) whether they produce a response based on the provided knowledge (faithfulness)(Tips: provied knowledge is ground_truth passages, NQ and HotpotQA have ground_truth passages).
 + **Ruiyang Ren, Yuhao Wang, Yingqi Qu, Wayne Xin Zhao, Jing Liu., et.al: Investigating the Factual Knowledge Boundary of Large Language Models
-with Retrieval Augmentation** [[paper](https://arxiv.org/abs/2305.13300)] 2023.7
+with Retrieval Augmentation** [[paper](https://arxiv.org/abs/2307.11019)] 2023.7
   - **Key point:** This paper presents an initial analysis of the factual knowledge boundaries of LLMs and how retrieval augmentation affects LLMs on open-domain QA.
 + **Jian Xie, Kai Zhang, Kai Zhang, Renze Lou, Yu Su:Adaptive Chameleon or Stubborn Sloth: REVEALING THE BEHAVIOR OF LARGE LANGUAGE MODELS IN KNOWLEDGE CONFLICTS**  [[paper](https://browse.arxiv.org/pdf/2305.13300.pdf)] 2023.10
   + **Key point:** This paper presents the first comprehensive and controlled investigation into the behavior of LLMs when encountering knowledge conflicts.
