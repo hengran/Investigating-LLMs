@@ -1,5 +1,9 @@
 # Investigating LLMs
 
+## Three questions:
++ What are the retrieved documents?  ground or misinformation
++ How can LLMs utilize the retrieved documents?  prompt tuning
++ How do LLMs generate answers based on the retrieved documents? decoding
 
 ## Problem in LLMs
 
