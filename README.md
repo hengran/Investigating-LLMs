@@ -15,13 +15,14 @@
 + LLMs performance:
   -  Noise Robustness, negative rejection, information integration, and dealing with false information [[paper](https://aclanthology.org/2023.acl-long.546.pdf)]
   -  Faithfulness[[paper](https://arxiv.org/abs/2308.05374)]: It is a kind of Input-conflicting hallucination. [[paper](https://arxiv.org/abs/2308.05374)]
+  -  knowledge conflicts. [[paper](https://browse.arxiv.org/pdf/2305.13300.pdf)] [[paper](https://arxiv.org/abs/2305.14739)] 
 
 ## Investigating LLMs with summarization
 
 + **Derek Tam, Anisha Mascarenhas, Shiyue Zhang, Sarah Kwan, Mohit Bansal, Colin Raffel: Evaluating the Factual Consistency of Large Language Models Through News Summarization** [[paper](https://aclanthology.org/2023.findings-acl.322.pdf)] 2023, ACL findings
   
    - **key point:** This paper evaluates 23 large language models ranging from 1B to 176B parameters from six different model families including BLOOM and OPT, and they found that existing LLMs generally assign a higher score to factually consistent summaries than to factually inconsistent summaries. 
-+ **Weijia Shi, Xiaochuang Han, Mike Lewis, Yulia Tsvetkov, Luke Zettlemoyer, Scott Wen-tau Yih: Trusting Your Evidence: Hallucinate Less with Context-aware Decoding** [[paper]](https://arxiv.org/abs/2305.14739) 2023.05
++ **Weijia Shi, Xiaochuang Han, Mike Lewis, Yulia Tsvetkov, Luke Zettlemoyer, Scott Wen-tau Yih: Trusting Your Evidence: Hallucinate Less with Context-aware Decoding** [[paper](https://arxiv.org/abs/2305.14739)] 2023.05
   - **Key point:** This paper presents context-aware decoding (CAD), which follows a contrastive output distribution that amplifies the difference between the output probabilities when a model is used with and without context. Without additional training, CAD significantly improves the faithfulness of different LM families, including OPT, GPT, LLaMA and FLAN-T5 for summarization tasks.
 
 
