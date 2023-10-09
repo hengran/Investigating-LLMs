@@ -1,10 +1,10 @@
 # Investigating-retrieval-augmentation-LLMs-
-## investigating LLMs
+## investigating LLMs with summarization
 
 + **Derek Tam, Anisha Mascarenhas, Shiyue Zhang, Sarah Kwan, Mohit Bansal, Colin Raffel: Evaluating the Factual Consistency of Large Language Models Through News Summarization** [[paper](https://aclanthology.org/2023.findings-acl.322.pdf)] 2023, ACL findings
    + **key point:** This paper evaluates 23 large language models ranging from 1B to 176B parameters from six different model families including BLOOM and OPT, and they found that existing LLMs generally assign a higher score to factually consistent summaries than to factually inconsistent summaries. 
-+ **Weiwei Sun, Lingyong Yan, Xinyu Ma, Pengjie Ren, Dawei Yin, Zhaochun Ren: Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agent** [[paper](https://arxiv.org/pdf/2304.09542.pdf)] 2023.4
-  + **key point:** This paper focuses on the study of exploring generative LLMs such as ChatGPT and GPT-4 for relevance ranking in Information Retrieval (IR).
++ **Weijia Shi, Xiaochuang Han, Mike Lewis, Yulia Tsvetkov, Luke Zettlemoyer, Scott Wen-tau Yih: Trusting Your Evidence: Hallucinate Less with Context-aware Decoding** [[paper]](https://arxiv.org/abs/2305.14739) 2023.05
+  + **Key point:** This paper presents context-aware decoding (CAD), which follows a contrastive output distribution that amplifies the difference between the output probabilities when a model is used with and without context. Without additional training, CAD significantly improves the faithfulness of different LM families, including OPT, GPT, LLaMA and FLAN-T5 for summarization tasks.
     
 ## investigating LLMs with restrieval augmentation
 
@@ -25,6 +25,5 @@ with Retrieval Augmentation** [[paper]](https://arxiv.org/abs/2305.13300) 2023.7
 + **Siqing Huo, Negar Arabzadeh, Charles L. A. Clarke: Retrieving Supporting Evidence for Generative Question**  [[paper]](https://arxiv.org/pdf/2309.11392.pdf) 2023.09
   + **Key point:** This paper reports two simple experiments to automatically validate generated answers against a corpus.
  
-+ **Weijia Shi, Xiaochuang Han, Mike Lewis, Yulia Tsvetkov, Luke Zettlemoyer, Scott Wen-tau Yih: Trusting Your Evidence: Hallucinate Less with Context-aware Decoding** [[paper]](https://arxiv.org/abs/2305.14739) 2023.05
-  + **Key point:** This paper presents context-aware decoding (CAD), which follows a contrastive output distribution that amplifies the difference between the output probabilities when a model is used with and without context. Without additional training, CAD significantly improves the faithfulness of different LM families, including OPT, GPT, LLaMA and FLAN-T5 for summarization tasks.
+
 
