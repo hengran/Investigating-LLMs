@@ -10,7 +10,7 @@
   - Context-conflicting hallucination, where LLMs generate content that conflicts with previously generated information by itself.
   - Fact-conflicting hallucination, where LLMs generate content that is not faithful to established world knowledge.
     
-## Problem in retrieval-augmentation LLMs
+## Problem in retrieval-augmented LLMs
 + Retrieval process:
   - misinformation [[Discern and Answer: Mitigating the Impact of Misinformation in Retrieval-Augmented Models with Discriminators](https://browse.arxiv.org/pdf/2305.01579.pdf)] 
 + LLMs performance:
