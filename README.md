@@ -1,8 +1,11 @@
 # Investigating-retrieval-augmentation-LLMs-
 ## investigating LLMs
+
 + **Evaluating the Factual Consistency of Large Language Models Through News Summarization** [[paper](https://aclanthology.org/2023.findings-acl.322.pdf)] 2023, ACL findings
 + **Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agent** [[paper](https://arxiv.org/pdf/2304.09542.pdf)] 2023.4
++ 
 ## investigating LLMs with restrieval augmentation
+
 +  **Ruiyang Ren, Yuhao Wang, Yingqi Qu, Wayne Xin Zhao, Jing Liu., et.al: Investigating the Factual Knowledge Boundary of Large Language Models
 with Retrieval Augmentation** [[paper]](https://arxiv.org/abs/2305.13300) 2023.7
 + **Jian Xie, Kai Zhang, Kai Zhang, Renze Lou, Yu Su:Adaptive Chameleon or Stubborn Sloth: REVEALING THE BEHAVIOR OF LARGE LANGUAGE MODELS IN KNOWLEDGE CONFLICTS**  [[paper]](https://browse.arxiv.org/pdf/2305.13300.pdf) 2023.10
