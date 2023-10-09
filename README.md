@@ -14,7 +14,7 @@
   - misinformation [[paper](https://browse.arxiv.org/pdf/2305.01579.pdf)] 
 + LLMs performance:
   -  Noise Robustness, negative rejection, information integration, and dealing with false information [[paper](https://aclanthology.org/2023.acl-long.546.pdf)]
-
+  -  Faithfulness[[paper](https://arxiv.org/abs/2308.05374)]: It is a kind of Input-conflicting hallucination. [[paper](https://arxiv.org/abs/2308.05374)]
 
 ## Investigating LLMs with summarization
 
