@@ -3,21 +3,21 @@
 
 ## Problem in LLMs
 
-+ Trustworthiness:  reliability, safety, fairness, resistance to misuse, explainability and reasoning, adherence to social norms, and robustness. [[paper](https://arxiv.org/abs/2308.05374)]
-+ Factual Consistency. [[paper](https://aclanthology.org/2023.findings-acl.322.pdf)]
-+ Hallucination:
++ Trustworthiness:  reliability, safety, fairness, resistance to misuse, explainability and reasoning, adherence to social norms, and robustness. [[Trustworthy LLMs: a Survey and Guideline for Evaluating Large Language Models' Alignment](https://arxiv.org/abs/2308.05374)]
++ Factual Consistency. [[Evaluating the Factual Consistency of Large Language Models Through News Summarization](https://aclanthology.org/2023.findings-acl.322.pdf)]
++ Hallucination [[Siren’s Song in the AI Ocean: A Survey on Hallucination in Large Language Models](https://arxiv.org/abs/2309.01219)]:
   - Input-conflicting hallucination, where LLMs generate content that deviates from the source input provided by users.
   - Context-conflicting hallucination, where LLMs generate content that conflicts with previously generated information by itself.
   - Fact-conflicting hallucination, where LLMs generate content that is not faithful to established world knowledge.
     
 ## Problem in retrieval-augmentation LLMs
 + Retrieval process:
-  - misinformation [[paper](https://browse.arxiv.org/pdf/2305.01579.pdf)] 
+  - misinformation [[Discern and Answer: Mitigating the Impact of Misinformation in Retrieval-Augmented Models with Discriminators](https://browse.arxiv.org/pdf/2305.01579.pdf)] 
 + LLMs performance:
-  -  Noise Robustness, negative rejection, information integration, and dealing with false information [[paper](https://aclanthology.org/2023.acl-long.546.pdf)]
-  -  Faithfulness[[paper](https://arxiv.org/abs/2308.05374)]: It is a kind of Input-conflicting hallucination. [[paper](https://arxiv.org/abs/2308.05374)]
-  -  knowledge conflicts. [[paper](https://browse.arxiv.org/pdf/2305.13300.pdf)] [[paper](https://arxiv.org/abs/2305.14739)]
-  -  Factual Knowledge Boundary.  [[paper](https://arxiv.org/abs/2305.13300)] [[paper](https://aclanthology.org/2023.acl-long.546.pdf)]
+  -  Noise Robustness, negative rejection, information integration, and dealing with false information [[When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories](https://aclanthology.org/2023.acl-long.546.pdf)]
+  -  Faithfulness[[Evaluating Correctness and Faithfulness of Instruction-Following Models for Question Answering](https://arxiv.org/abs/2307.16877)]: It is a kind of Input-conflicting hallucination. [[ Trustworthy LLMs: a Survey and Guideline for Evaluating Large Language Models' Alignment](https://arxiv.org/abs/2308.05374)]
+  -  knowledge conflicts. [[Adaptive Chameleon or Stubborn Sloth: REVEALING THE BEHAVIOR OF LARGE LANGUAGE MODELS IN KNOWLEDGE CONFLICTS](https://browse.arxiv.org/pdf/2305.13300.pdf)] [[Trusting Your Evidence: Hallucinate Less with Context-aware Decoding](https://arxiv.org/abs/2305.14739)]
+  -  Factual Knowledge Boundary.  [[Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation](https://arxiv.org/abs/2305.13300)] [[When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories](https://aclanthology.org/2023.acl-long.546.pdf)]
 
 ## Investigating LLMs with summarization
 
@@ -47,7 +47,7 @@ with Retrieval Augmentation** [[paper](https://arxiv.org/abs/2305.13300)] 2023.7
   + **Key point:** This paper presents the first comprehensive and controlled investigation into the behavior of LLMs when encountering knowledge conflicts.
 + **Giwon Hong, Jeonghwan Kim, Junmo Kang, Sung-Hyon Myaeng, Joyce Jiyoung Whang: Discern and Answer: Mitigating the Impact of Misinformation in Retrieval-Augmented Models with Discriminators**  [[paper](https://browse.arxiv.org/pdf/2305.01579.pdf)] 2023.5
   + **Key point:** This paper studies a more realistic scenario in which retrieved documents may contain misinformation, causing conflicts among them. We observe that the existing models are highly brittle to such information in both fine-tuning and in-context few-shot learning settings. This paper finds that explicitly fine-tuning a discriminator or prompting to elicit discrimination capability in GPT-3 significantly improve LMs' robustness to knowledge conflicts
-+ **Jiawei Chen, Hongyu Lin, Xianpei Han, Le Su: Benchmarking Large Language Models in Retrieval-Augmented Generation** [[paper](https://browse.arxiv.org/pdf/2305.01579.pdf)] 2023.9
++ **Jiawei Chen, Hongyu Lin, Xianpei Han, Le Su: Benchmarking Large Language Models in Retrieval-Augmented Generation** [[paper](https://arxiv.org/abs/2309.01431)] 2023.9
   + **Key point:** This paper establishes Retrieval-Augmented Generation Benchmark (RGB) and evaluates 6 representative LLMs in terms of Noise Robustness, negative rejection, information integration, and dealing with false information. 
 + **Alex Mallen, Akari Asai, Victor Zhong, Rajarshi Das, Daniel Khashabi, Hannaneh Hajishirzi: When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories** [[paper](https://aclanthology.org/2023.acl-long.546.pdf)] 2023, ACL long
   + **Key point:** This paper aims to understand LMs' strengths and limitations in memorizing factual knowledge, by conducting large-scale knowledge probing experiments of 10 models and 4 augmentation methods on PopQA, our new open-domain QA dataset with 14k questions. This paper finds that LMs struggle with less popular factual knowledge, and that scaling fails to appreciably improve memorization of factual knowledge in the long tail.
