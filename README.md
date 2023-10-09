@@ -5,7 +5,13 @@
    + **key point:** This paper evaluates 23 large language models ranging from 1B to 176B parameters from six different model families including BLOOM and OPT, and they found that existing LLMs generally assign a higher score to factually consistent summaries than to factually inconsistent summaries. 
 + **Weijia Shi, Xiaochuang Han, Mike Lewis, Yulia Tsvetkov, Luke Zettlemoyer, Scott Wen-tau Yih: Trusting Your Evidence: Hallucinate Less with Context-aware Decoding** [[paper]](https://arxiv.org/abs/2305.14739) 2023.05
   + **Key point:** This paper presents context-aware decoding (CAD), which follows a contrastive output distribution that amplifies the difference between the output probabilities when a model is used with and without context. Without additional training, CAD significantly improves the faithfulness of different LM families, including OPT, GPT, LLaMA and FLAN-T5 for summarization tasks.
-    
+
+
+## Survey on trustworthy LLMs
++ **Yang Liu, Yuanshun Yao, Jean-Francois Ton, Xiaoying Zhang, Ruocheng Guo, Hao Cheng, Yegor Klochkov, Muhammad Faaiz Taufiq, Hang Li: Trustworthy LLMs: a Survey and Guideline for Evaluating Large Language Models' Alignment** [[paper](https://arxiv.org/abs/2308.05374)] 2023.08
+  + **Key point:** This paper presents a comprehensive survey of key dimensions that are crucial to consider when assessing LLM trustworthiness. The survey covers seven major categories of LLM trustworthiness: reliability, safety, fairness, resistance to misuse, explainability and reasoning, adherence to social norms, and robustness. Each major category is further divided into several sub-categories, resulting in a total of 29 sub-categories. 
+
+
 ## investigating LLMs with restrieval augmentation
 
 + **Ruiyang Ren, Yuhao Wang, Yingqi Qu, Wayne Xin Zhao, Jing Liu., et.al: Investigating the Factual Knowledge Boundary of Large Language Models
@@ -20,8 +26,7 @@ with Retrieval Augmentation** [[paper]](https://arxiv.org/abs/2305.13300) 2023.7
 + **Alex Mallen, Akari Asai, Victor Zhong, Rajarshi Das, Daniel Khashabi, Hannaneh Hajishirzi: When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories** [[paper]](https://aclanthology.org/2023.acl-long.546.pdf) 2023, ACL long
   + **Key point:** This paper aims to understand LMs' strengths and limitations in memorizing factual knowledge, by conducting large-scale knowledge probing experiments of 10 models and 4 augmentation methods on PopQA, our new open-domain QA dataset with 14k questions. This paper finds that LMs struggle with less popular factual knowledge, and that scaling fails to appreciably improve memorization of factual knowledge in the long tail.
 
-+ **Yang Liu, Yuanshun Yao, Jean-Francois Ton, Xiaoying Zhang, Ruocheng Guo, Hao Cheng, Yegor Klochkov, Muhammad Faaiz Taufiq, Hang Li: Trustworthy LLMs: a Survey and Guideline for Evaluating Large Language Models' Alignment** [[paper](https://arxiv.org/abs/2308.05374)] 2023.08
-  + **Key point:** This paper presents a comprehensive survey of key dimensions that are crucial to consider when assessing LLM trustworthiness. The survey covers seven major categories of LLM trustworthiness: reliability, safety, fairness, resistance to misuse, explainability and reasoning, adherence to social norms, and robustness. Each major category is further divided into several sub-categories, resulting in a total of 29 sub-categories. 
+
 + **Siqing Huo, Negar Arabzadeh, Charles L. A. Clarke: Retrieving Supporting Evidence for Generative Question**  [[paper]](https://arxiv.org/pdf/2309.11392.pdf) 2023.09
   + **Key point:** This paper reports two simple experiments to automatically validate generated answers against a corpus.
  
