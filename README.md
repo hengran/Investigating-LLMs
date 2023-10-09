@@ -35,7 +35,7 @@
   + **Key point:** An overview of the problem of large-model hallucinations is presented in terms of detection, explanation and mitigation.
 
 ## Investigating LLMs with restrieval augmentation
-+ **Vaibhav Adlakha, Parishad BehnamGhader, Xing Han Lu, Nicholas Meade, Siva Reddy: Evaluating Correctness and Faithfulness of Instruction-Following Models for Question Answering**  [[paper](https://arxiv.org/abs/2307.16877)]
++ **Vaibhav Adlakha, Parishad BehnamGhader, Xing Han Lu, Nicholas Meade, Siva Reddy: Evaluating Correctness and Faithfulness of Instruction-Following Models for Question Answering**  [[paper](https://arxiv.org/abs/2307.16877)] 2023.07
   - **Key point:** This paper investigates the performance of instruction-following models across three information-seeking QA tasks. This paper uses both automatic and human evaluation to evaluate these models along two dimensions: 1) how well they satisfy the user's information need (correctness), and 2) whether they produce a response based on the provided knowledge (faithfulness)(Tips: provied knowledge is ground_truth passages, NQ and HotpotQA have ground_truth passages).
 + **Ruiyang Ren, Yuhao Wang, Yingqi Qu, Wayne Xin Zhao, Jing Liu., et.al: Investigating the Factual Knowledge Boundary of Large Language Models
 with Retrieval Augmentation** [[paper](https://arxiv.org/abs/2305.13300)] 2023.7
