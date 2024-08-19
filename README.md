@@ -40,8 +40,8 @@
 + **Yue Zhang et al:Siren’s Song in the AI Ocean: A Survey on Hallucination in Large Language Models** [[paper](https://arxiv.org/abs/2309.01219)] 2023.09
   + **Key point:** An overview of the problem of large-model hallucinations is presented in terms of detection, explanation and mitigation.
 + **Ziwei Ji et al: Survey of hallucination in natural language generation**[paper](https://dl.acm.org/doi/abs/10.1145/3571730) 2023
- + **Bingbing Wen et al: Know Your Limits: A Survey of Abstention in Large Language Models** [paper](https://www.llwang.net/assets/pdf/2024_wen_abstention-survey_arxiv.pdf)
- + **Key point:** Abstention, the refusal of large language models (LLMs) to provide an answer, is increasingly recognized for its potential to mitigate hallucinations and enhance safety in LLM systems. In this survey, we introduce a framework to examine abstention from three perspectives: the query, the model, and human values. 
++ **Bingbing Wen et al: Know Your Limits: A Survey of Abstention in Large Language Models** [paper](https://www.llwang.net/assets/pdf/2024_wen_abstention-survey_arxiv.pdf)
+  + **Key point:** Abstention, the refusal of large language models (LLMs) to provide an answer, is increasingly recognized for its potential to mitigate hallucinations and enhance safety in LLM systems. In this survey, we introduce a framework to examine abstention from three perspectives: the query, the model, and human values. 
 
 
 
