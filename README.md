@@ -26,21 +26,21 @@
 
 ## Investigating LLMs with summarization
 
-+ **Derek Tam, Anisha Mascarenhas, Shiyue Zhang, Sarah Kwan, Mohit Bansal, Colin Raffel: Evaluating the Factual Consistency of Large Language Models Through News Summarization** [[paper](https://aclanthology.org/2023.findings-acl.322.pdf)] 2023, ACL findings
++ **Derek Tam et al: Evaluating the Factual Consistency of Large Language Models Through News Summarization** [[paper](https://aclanthology.org/2023.findings-acl.322.pdf)] 2023, ACL findings
   
    - **key point:** This paper evaluates 23 large language models ranging from 1B to 176B parameters from six different model families including BLOOM and OPT, and they found that existing LLMs generally assign a higher score to factually consistent summaries than to factually inconsistent summaries. 
-+ **Weijia Shi, Xiaochuang Han, Mike Lewis, Yulia Tsvetkov, Luke Zettlemoyer, Scott Wen-tau Yih: Trusting Your Evidence: Hallucinate Less with Context-aware Decoding** [[paper](https://arxiv.org/abs/2305.14739)] 2023.05
++ **Weijia Shiet al: Trusting Your Evidence: Hallucinate Less with Context-aware Decoding** [[paper](https://arxiv.org/abs/2305.14739)] 2023.05
   - **Key point:** This paper presents context-aware decoding (CAD), which follows a contrastive output distribution that amplifies the difference between the output probabilities when a model is used with and without context. Without additional training, CAD significantly improves the faithfulness of different LM families, including OPT, GPT, LLaMA and FLAN-T5 for summarization tasks.
 
 
 ## Survey on LLMs
 
-+ **Yang Liu, Yuanshun Yao, Jean-Francois Ton, Xiaoying Zhang, Ruocheng Guo, Hao Cheng, Yegor Klochkov, Muhammad Faaiz Taufiq, Hang Li: Trustworthy LLMs: a Survey and Guideline for Evaluating Large Language Models' Alignment** [[paper](https://arxiv.org/abs/2308.05374)] 2023.08
++ **Yang Liu et al: Trustworthy LLMs: a Survey and Guideline for Evaluating Large Language Models' Alignment** [[paper](https://arxiv.org/abs/2308.05374)] 2023.08
   + **Key point:** This paper presents a comprehensive survey of key dimensions that are crucial to consider when assessing LLM trustworthiness. The survey covers seven major categories of LLM trustworthiness: reliability, safety, fairness, resistance to misuse, explainability and reasoning, adherence to social norms, and robustness. Each major category is further divided into several sub-categories, resulting in a total of 29 sub-categories.
-+ **Yue Zhang, Yafu Li, Leyang Cui, Deng Cai, Lemao Liu, Tingchen Fu, Xinting Huang, Enbo Zhao, Yu Zhang, Yulong Chen, Longyue Wang, Anh Tuan Luu, Wei Bi, Freda Shi, Shuming Shi:Siren’s Song in the AI Ocean: A Survey on Hallucination in Large Language Models** [[paper](https://arxiv.org/abs/2309.01219)] 2023.09
++ **Yue Zhang et al:Siren’s Song in the AI Ocean: A Survey on Hallucination in Large Language Models** [[paper](https://arxiv.org/abs/2309.01219)] 2023.09
   + **Key point:** An overview of the problem of large-model hallucinations is presented in terms of detection, explanation and mitigation.
-+ **Ziwei Ji, Nayeon Lee, Rita Frieske, Tiezheng Yu, Dan Su, Yan Xu, Etsuko Ishii, Ye Jin Bang, Andrea Madotto, Pascale FungAuthors Info & Claims: Survey of hallucination in natural language generation**[paper](https://dl.acm.org/doi/abs/10.1145/3571730) 2023
- + **Bingbing Wen  Jihan Yao Shangbin Feng Chenjun Xu Yulia Tsvetkov  Bill Howe Lucy Lu Wang:Know Your Limits: A Survey of Abstention in Large Language Models** [paper](https://www.llwang.net/assets/pdf/2024_wen_abstention-survey_arxiv.pdf)
++ **Ziwei Ji et al: Survey of hallucination in natural language generation**[paper](https://dl.acm.org/doi/abs/10.1145/3571730) 2023
+ + **Bingbing Wen et al: Know Your Limits: A Survey of Abstention in Large Language Models** [paper](https://www.llwang.net/assets/pdf/2024_wen_abstention-survey_arxiv.pdf)
  + **Key point:** Abstention, the refusal of large language models (LLMs) to provide an answer, is increasingly recognized for its potential to mitigate hallucinations and enhance safety in LLM systems. In this survey, we introduce a framework to examine abstention from three perspectives: the query, the model, and human values. 
 
 
